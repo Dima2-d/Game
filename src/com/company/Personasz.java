@@ -11,10 +11,7 @@ public abstract class Personasz {
 
     public void XPmin(int mXP) {
         XP=XP-mXP;
-        if(XP<0)
-        {
-            //удаление персонажа
-        }
+
     }
 
     public String PName()
